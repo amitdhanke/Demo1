@@ -16,9 +16,9 @@ public class ArrayListExample {
        Iterator<String> i =a.iterator();
        
        
-       for(String s:a)
+       for(String list:a)
        {
-    	   System.out.println(" ArrayList "+a);
+    	   System.out.println(" ArrayList "+list);
        }
        
        while(i.hasNext())
