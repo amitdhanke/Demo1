@@ -15,11 +15,19 @@ public class ArrayListExample {
        
        Iterator<String> i =a.iterator();
        
+       
+       for(String s:a)
+       {
+    	   System.out.println(" ArrayList "+a);
+       }
+       
        while(i.hasNext())
        {
     	   System.out.println(i.next());
     	   
        }
+       
+       
        
 	}
 
