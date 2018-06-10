@@ -11,6 +11,8 @@ public class ArrayListExample {
        a.add("Amit");
        a.add("Swaraj");
        a.add("Amit");
+       a.add("NewAddition");
+       a.add("Git");
        a.add(null);
        
        Iterator<String> i =a.iterator();
@@ -18,6 +20,8 @@ public class ArrayListExample {
        
        for(String list:a)
        {
+    	   System.out.println(" ArrayList Demo ");
+    	   System.out.println(" ################################################################## ");
     	   System.out.println(" ArrayList "+list);
        }
        
