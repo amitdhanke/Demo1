@@ -18,6 +18,7 @@ public class ArrayListExample {
        
        for(String list:a)
        {
+    	   System.out.println("Demo Of ArrayList");
     	   System.out.println(" ArrayList "+list);
        }
        
